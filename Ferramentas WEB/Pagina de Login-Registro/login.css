@@ -1,0 +1,293 @@
+:root{
+    --cor-principal: #121212;
+    --cor-subprincipal: #202020;
+    --cor-bordaprincipal: #3C3B3B;
+    --cor-titulo: #FCFCFC;
+    --cor-subtexto: #6B6B6B;
+    --cor-subtexto2: #B7B7B7;
+    --cor-hiperlink: #33289C;
+    --cor-textolink: #766FF1;
+    --cor-botao: #685ECE;
+    --cor-botao2: #242231;
+    --cor-botãotexto: #7174EC;
+    --cor-botãotexto2: #D9D9D9;
+    --cor-botaoborda: #3B366B;
+    --cor-status: #173A25;
+    --cor-statustexto: #71C968;
+    --cor-status2: #462222;
+    --cor-statustexto2: #E40F0F;
+    --fonte-nunito: 'Nunito', sans-serif;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;    
+}
+p{
+    color: var(--cor-botao);
+    font-family: var(--fonte-nunito);    
+}
+
+/*INICIO LOGO*/
+.home{
+    margin-top: -3px;
+}
+.home img{
+    width: 65px;
+    height: 65px;;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*---FIM LOGO---*/
+
+/*INICIO DA PAGINA DE LOGIN*/
+.paginadelogin{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor-principal);
+    font-family: var(--fonte-nunito);
+    color: var(--cor-botãotexto2);
+    user-select: none;
+
+}
+
+/*INICIO DA PAGINA DE LOGIN-1*/
+.login-1{
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bemvindo-login{
+    color: var(--cor-botao);
+    text-align: center; 
+}
+.imganimado{
+    font-size: 1vw;
+    margin: 30px;
+}
+.imagemlogin{
+    width: 35vw;
+}
+/*---FIM PAGINA DE LOGIN-1---*/
+
+/*INICIO DA PAGINA DE LOGIN-2*/
+.login-2{
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxdelogin{
+    max-height: 600px;
+    width: 50%;
+    padding: 40px 35px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    box-sizing: border-box;
+    border: solid var(--cor-botãotexto) 5px;
+    box-shadow: 0px 10px 40px var(--cor-botaoborda);
+    background-color: var(--cor-principal);
+}
+.msg{
+    margin-top: 15px;
+    color: var(--cor-botãotexto);
+    font-weight: 600;
+    font-size: 28px;
+    text-align: center;
+}
+/*---FIM PAGINA DE LOGIN-2---*/
+
+/*INICIO DADOS*/
+.dados{
+    width: 100%;
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.dados label{
+    font-size: 18px;
+    margin: 10px 0;
+}
+.inputteste{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    overflow: hidden;
+    font-size: 24px;
+    padding: 12px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: var(--cor-subprincipal);
+}
+.inputteste input{
+    margin-left: 10px;
+    width: 100%;
+    font-size: 16px;
+    border: none;
+    cursor:text;
+    outline: none;
+    background-color: transparent;
+    color: var(--cor-subtexto2);
+}
+.inputteste i{
+    font-size: 20px;
+    color: var(--cor-botãotexto2);
+}
+.dados a{
+    margin-left: 15px;
+    visibility: hidden;
+    color: var(--cor-botãotexto);
+}
+.inputteste.erro{
+    border: 2px solid var(--cor-botao);
+    color: var(--cor-botãotexto);
+}
+
+.dados.erro a{
+    visibility:visible;
+}
+/*---FIM DADOS---*/
+
+/*INICIO BOTÃO-LOGIN*/
+.botaologin{
+    height: 40px;
+    width: 40%;
+    margin: 20px 0;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-family: var(--fonte-nunito);
+    color: var(--cor-botãotexto2);
+    background-color: var(--cor-botao);
+    box-shadow: 0px 10px 40px -6px var(--cor-botaoborda);
+}
+.botaologin a{
+    text-decoration: none;
+    color: var(--cor-botãotexto2)
+}
+/*---FIM BOTÃO-LOGIN---*/
+
+/*INICIO REGRISTRO*/
+.semconta{
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    font-family: var(--fonte-nunito);
+    color: var(--cor-botãotexto2);
+}
+.semconta a{
+    text-decoration: none;
+    color: var(--cor-textolink);
+}
+/*---FIM REGISTRO---*/
+
+
+/*INICIO DOS ALERTAS*/
+.boasvindas.erro{
+    visibility: visible;
+}
+.boasvindas{
+    width: 20vw;
+    font-size: 24px;
+    box-sizing: border-box;
+    text-align: center;
+    position: fixed;
+    top: 40vh;
+    left: 42vw;
+    border-radius: 15px;
+    user-select: none;
+    border: 6px solid var(--cor-botao);
+    font-family: var(--fonte-nunito);
+    color: var(--cor-subtexto2);
+    box-shadow: 0px 0px 300px 150px var(--cor-botaoborda);
+    background-color: var(--cor-principal);  
+    visibility: hidden;
+}
+.boasvindas-1{
+    height: 30%;
+    padding: 15px;
+    border-radius: 15px 15px 0 0;
+    background-color: var(--cor-principal);
+    color: var(--cor-titulo);
+}
+.texto-1{
+    color: var(--cor-titulo);
+}
+.boasvindas i{
+    font-size: 72px;
+}
+.boasvindas-2{
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 0 0 14px 15px;
+    color: var(--cor-titulo);
+    background-color: var(--cor-botao2);
+}
+/*---FIM ALERTAs---*/
+
+/*-------FIM PAGINA DE LOGIN--------*/
+
+
+@media only screen and (max-width: 720px) {
+    .paginadelogin{
+        flex-direction: column-reverse;
+    }
+    .login-1{
+        width: 20vw;
+        flex-direction: column;
+    }
+    .login-2{
+        width: 80vw;
+    }
+    .boxdelogin{
+        width: 95%;
+        height: auto;
+    }
+    .dados{
+        height: 30vh;
+    }
+    .dados label{
+        font-size: 22px;
+    }
+    .inputteste{
+        height: 5vh;
+    }
+    .inputteste input{
+        font-size: 24px;
+    }
+    .inputteste i{
+        font-size: 24px;
+    }
+    .imganimado{
+        display: none;
+    }
+    .imagemlogin{
+        width: 65vw;
+    }
+
+    .botaologin{
+        height: 60px;
+        width: 60%;
+        font-size: 28px;
+    }
+    .semconta{
+        font-size: 22px;
+    }
+
+}
