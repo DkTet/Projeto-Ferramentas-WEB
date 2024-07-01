@@ -22,4 +22,27 @@ document.addEventListener('DOMContentLoaded', (event) => {
         window.location.reload(true);
     })
 });
+
+
+
+document.addEventListener('DOMContentLoaded', (event) =>{
+    const editores1=document.getElementById('editores-1');
+    const favoritos1=document.getElementById('favoritos-1');
+    const editores2=document.getElementById('editores-2');
+    const favoritos2=document.getElementById('favoritos-2');
+        setInterval(function() {
+            editores1.id="editores-2";
+            favoritos1.id="favoritos-2";
+            editores2.id="editores-1";
+            favoritos2.id="favoritos-1";
+
+            setTimeout(function() {
+                editores1.id="editores-1";
+                favoritos1.id="favoritos-1";
+                editores2.id="editores-2";
+                favoritos2.id="favoritos-2";
+            },5000);
+        },10000);
+})
+
 /*FIM TROCAR LOGIN POR USUARIO*/

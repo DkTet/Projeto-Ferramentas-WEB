@@ -35,7 +35,7 @@ p{
 /*Inicio do Section*/
 .section{
     padding: 10px;
-    height: 1500px;
+    height: max-content;
     width: 70vw;
     margin: 0 auto;
     background-color: var(--cor-subprincipal);

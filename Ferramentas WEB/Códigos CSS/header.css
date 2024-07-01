@@ -65,8 +65,8 @@ p{
     font-family: var(--fonte-nunito);
     font-weight: 600;
     color: var(--cor-botãotexto2);
-    margin-right: 350px;
-    margin-left: 350px;
+    margin-right: 15vw;
+    margin-left: 15vw;
 }
 .linkhead{
     margin: 10px;
@@ -100,7 +100,7 @@ p{
 }
 .botaologin{
     height: 50px;
-    width: calc(50% - 10px); /* Largura dos botões para duas colunas, com espaço entre */
+    width: calc(50% - 10px);
     margin: 5px;
     background-color: var(--cor-principal);
     font-family: var(--fonte-nunito);
@@ -155,3 +155,11 @@ p{
 /*---FIM DAS PAGIANA DE LOGIN-1---*/
 
 /*-------FIM HEADER--------*/
+
+@media screen and (max-width: 800px) {
+    .head1{
+        margin-right: 10vw;
+        margin-left: 10vw;
+    }
+
+}

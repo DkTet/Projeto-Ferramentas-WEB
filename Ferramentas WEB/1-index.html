@@ -7,7 +7,6 @@
     <title>OWL Novels Sua Leitura Noturna!!</title>
     <link rel="stylesheet" href="./Códigos CSS/BullyMonkeyssss.css">
     <link rel="stylesheet" href="./Códigos CSS/header.css">
-    <link rel="stylesheet" href="./Códigos CSS/section.css">
     <link rel="stylesheet" href="./Códigos CSS/footer.css">
     <script src="geral.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -52,32 +51,158 @@
 
     <section class="section">
         <div class="painel">
-            <div class="subpainel">
-                <div class="fundo"></div>
+            <div class="subpainel" id="favoritos-1">
+                <div class="fundo" style="background-image: url('../Imagens/maedaaprendizagem.jpg');"></div>
                 <div class="titulonovel">Favoritos dos Leitores</div>
-                <div class="auxiliar"> 
-                    <div class="capanovel"><img src="./Imagens/maedaaprendizagem.jpg" alt="maeaprendizagem"></div>
-                    <div class="texto-painel">
+                <a href="./Livros/9-maedaaprendizagem.html">
+                    <div class="auxiliar"> 
+                        <div class="capanovel"><img src="./Imagens/maedaaprendizagem.jpg" alt="maeaprendizagem"></div>
+                        <div class="texto-painel">
                         <h3>Mãe da Aprendizagem</h3>
                         Zorian é um mago adolescente de nascimento humilde e habilidade ligeiramente acima da média, cursando seu terceiro ano de educação na academia mágica de Cyoria.
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
 
-            <div class="subpainel2">
-                <div class="fundo2"></div>
-                <div class="titulonovel2">Escolha dos Editores</div>
-                <div class="auxiliar2">
-                    <div class="capanovel2"><img src="./Imagens/cultivoonline.jpg" alt="cultivo"></div>
-                    <div class="texto-painel2">
-                    <h3>Cultivo On-line</h3>
-                    Yuan nasceu com uma doença incurável que o deixou cego ainda jovem e aleijado alguns anos depois, tornando inútil tudo abaixo de sua cabeça. Considerado desesperado e irremediável, seus pais rapidamente desistiram dele e o mundo o ignorou.</div>
-                </div>
+            <div class="subpainel" id="favoritos-2">
+                <div class="fundo" style="background-image: url('../Imagens/meusistema.jpg');"></div>
+                <div class="titulonovel">Favoritos dos Leitores</div>
+                <a href="./Livros/11-sistemavampiro.html">
+                    <div class="auxiliar"> 
+                        <div class="capanovel"><img src="./Imagens/meusistema.jpg" alt="meusistema"></div>
+                        <div class="texto-painel">
+                        <h3>Meu Sistema de Vampiro</h3>
+                        A Raça humana está em guerra com os Vicious Dalki e quando eles precisaram de ajuda mais do que nunca, ELES começaram a avançar. Humanos que se esconderam nas sombras por centenas de anos, pessoas com habilidades.
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="subpainel" id="editores-1">
+                <div class="fundo" style="background-image: url('../Imagens/cultivoonline.jpg');"></div>
+                <div class="titulonovel">Escolha dos Editores</div>
+                <a href="./Livros/12-cultivoonline.html">
+                    <div class="auxiliar"> 
+                        <div class="capanovel"><img src="./Imagens/cultivoonline.jpg" alt="cultivo"></div>
+                        <div class="texto-painel">
+                        <h3>Cultivo On-line</h3>
+                        Yuan nasceu com uma doença incurável que o deixou cego ainda jovem e aleijado alguns anos depois, tornando inútil tudo abaixo de sua cabeça. Considerado desesperado e irremediável, seus pais rapidamente desistiram dele e o mundo o ignorou.</div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="subpainel" id="editores-2">
+                <div class="fundo" style="background-image: url('../Imagens/escravosombrio.jpg');"></div>
+                <div class="titulonovel">Escolha dos Editores</div>
+                <a href="./Livros/10-escravosombrio.html">
+                    <div class="auxiliar"> 
+                        <div class="capanovel"><img src="./Imagens/escravosombrio.jpg" alt="escravo"></div>
+                        <div class="texto-painel">
+                        <h3>Escravo Sombrio</h3>
+                        Crescendo na pobreza, Sunny nunca esperou nada de bom da vida. No entanto, mesmo ele não esperava ser escolhido pelo Feitiço do Pesadelo e se tornar um dos Despertos - um grupo de elite de pessoas dotadas de poderes sobrenaturais.</div>
+                    </div>
+                </a>
             </div>
 
         </div>
 
-        <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda dolor totam repellendus odit quam cumque, nostrum laborum odio error sunt nobis vel <br>praesentium temporibus quibusdam perferendis labore! Enim magni suscipit esse temporibus, ab nobis iusto iste beatae mollitia ullam eligendi.</p></div>
+        <div class="painel-novels">
+            <div class="main-novels">Atualizados Recentemente</div>
+            <div class="listadenovels" id="listadenovels">
+
+                <div class="novel01" style="background-image: url('../Imagens/maedaaprendizagem.jpg');">
+                    <div class="novel01-titulo" title="Mãe da Aprendizagem"><a href="./Livros/9-maedaaprendizagem.html">Mãe da Aprendizagem</a></div>
+                    <div class="tags">
+                        <div class="tag">Ação</div>
+                        <div class="tag">Tempo</div>
+                        <div class="tag">Misterio</div>
+                    </div>
+                </div>
+
+                <div class="novel01" style="background-image: url('../Imagens/escravosombrio.jpg');">
+                    <div class="novel01-titulo" title="Escravo das Sombras"><a href="./Livros/10-escravosombrio.html">Escravo das Sombras</a></div>
+                    <div class="tags">
+                        <div class="tag">Ação</div>
+                        <div class="tag">Aventura</div>
+                        <div class="tag">Fantasia</div>
+                    </div>
+                </div>
+
+                <div class="novel01" style="background-image: url('../Imagens/meusistema.jpg');">
+                    <div class="novel01-titulo" title="Meu Sistema de Vampiro"><a href="./Livros/11-sistemavampiro.html">Meu Sistema de Vampiro</a></div>
+                    <div class="tags">
+                        <div class="tag">Ação</div>
+                        <div class="tag">Sistema</div>
+                        <div class="tag">Misterio</div>
+                    </div>
+                </div>
+                
+                <div class="novel01" style="background-image: url('../Imagens/cultivoonline.jpg');">
+                    <div class="novel01-titulo" title="Cultivo Online"><a href="./Livros/12-cultivoonline.html">Cultivo Online</a></div>
+                    <div class="tags">
+                        <div class="tag">Cultivo</div>
+                        <div class="tag">Jogos</div>
+                        <div class="tag">Aventura</div>
+                    </div>
+                </div>
+
+                <div class="novel01" style="background-image: url('../Imagens/escultordoluar.jpg');">
+                    <div class="novel01-titulo" title="O Lendario Escultor do Luar"><a href="./Livros/13-escultordoluar.html">O Lendario Escultor do Luar</a></div>
+                    <div class="tags">
+                        <div class="tag">Ação</div>
+                        <div class="tag">Jogos</div>
+                        <div class="tag">Espadas</div>
+                    </div>
+                </div>
+
+                <div class="novel01" style="background-image: url('../Imagens/despertardopreguiçoso.jpg');">
+                    <div class="novel01-titulo" title="O Despertar do Lorde Preguiçoso"><a href="./Livros/14-despertardopreguiçoso.html">O Despertar do Lorde Preguiçoso</a></div>
+                    <div class="tags">
+                        <div class="tag">Aventura</div>
+                        <div class="tag">Magia</div>
+                        <div class="tag">Demonios</div>
+                    </div>
+                </div>
+
+                <div class="novel01" style="background-image: url('../Imagens/esquecidopordeus.jpg');">
+                    <div class="novel01-titulo" title="Esquecido por Deus"><a href="./Livros/15-esquecidopordeus.html">Esquecido por Deus</a></div>
+                    <div class="tags">
+                        <div class="tag">Ferreiro</div>
+                        <div class="tag">Tempo</div>
+                        <div class="tag">Anjos</div>
+                    </div>
+                </div>
+
+                <div class="novel01" style="background-image: url('../Imagens/imortalrenegado.jpg');">
+                    <div class="novel01-titulo" title="Imortal Renegado"><a href="./Livros/16-imortalrenegado.html">Imortal Renegado</a></div>
+                    <div class="tags">
+                        <div class="tag">Imortais</div>
+                        <div class="tag">Vingança</div>
+                        <div class="tag">Sangue</div>
+                    </div>
+                </div>
+
+                <div class="novel01" style="background-image: url('../Imagens/segundavindadagula.jpg');">
+                    <div class="novel01-titulo" title="A Segunda Vinda da Gula"><a href="./Livros/17-segundavindadagula.html">A Segunda Vinda da Gula</a></div>
+                    <div class="tags">
+                        <div class="tag">Ação</div>
+                        <div class="tag">Tempo</div>
+                        <div class="tag">Lança</div>
+                    </div>
+                </div>
+
+                <div class="novel01" style="background-image: url('../Imagens/destinoalternativo.jpg');">
+                    <div class="novel01-titulo" title="Destino Alternativo"><a href="./Livros/18-destinoalternativo.html">Destino Alternativo</a></div>
+                    <div class="tags">
+                        <div class="tag">Ação</div>
+                        <div class="tag">Tempo</div>
+                        <div class="tag">Misterio</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
 
     </section>
                 

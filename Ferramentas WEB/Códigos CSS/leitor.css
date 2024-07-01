@@ -112,31 +112,34 @@ p{
     background-color: var(--cor-subprincipal);
 }
 .painel{
-    width: 100%;
+    width: 99%;
     height: 80px;
-    position: relative;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
     border-radius: 10px;
     background-color: var(--cor-principal);
 }
 .titulo-cap{
-    position: absolute;
-    font-weight: 500;
-    top: 18px;
-    left: 75px;
-} 
+    margin-right: 16vw;
+}
 .pcap{
     color: var(--cor-subtexto2);
 }
 .botaocabeçalho{
-    position: absolute;
-    font-weight: 500;
-    top: 15px;
-    right: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
 .botaocabeçalho1{
-    font-weight: 700;
-    height: 40px;
+    text-align: center;
     width: 60px;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 10px;
+    color: var(--cor-botãotexto2);
+    font-family: var(--fonte-nunito);
     background-color: var(--cor-botao);
 }
 .cap{
@@ -154,21 +157,13 @@ p{
 .painel2{
     width: 100%;
     height: 80px;
-    position: relative;
-    border-radius: 10px;
     margin-top: 10px;
-    background-color: var(--cor-principal);
-}
-button {
-    height: 50px;
-    width: calc(50% - 10px); /* Largura dos botões para duas colunas, com espaço entre */
-    margin: 5px;
-    background-color: var(--cor-principal);
-    font-family: var(--fonte-nunito);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 10px;
-    color: var(--cor-subtexto2);
+    background-color: var(--cor-principal);
 }
-
 
 /*FOOTER*/
 .footer{
